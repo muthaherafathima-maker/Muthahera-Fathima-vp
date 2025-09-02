@@ -1,0 +1,96 @@
+Got it 👍 — just to clarify: when you say “Java using portfolio”, do you mean you want an example of a Java program (console-based or GUI) that displays a portfolio, or are you asking for JavaScript (since it’s commonly used with HTML/CSS for portfolios)?
+
+
+---
+
+✅ If you meant JavaScript (for web portfolio)
+
+Here’s how you can add interactivity to your existing HTML + CSS portfolio.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a web developer passionate about creating modern websites.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <article>
+      <h3>Project 1</h3>
+      <p>A project description.</p>
+    </article>
+    <article>
+      <h3>Project 2</h3>
+      <p>Another project description.</p>
+    </article>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: example@email.com</p>
+    <button id="changeBg">Change Background</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Change background color on button click
+    document.getElementById("changeBg").addEventListener("click", function() {
+      const colors = ["#1e1e2f", "#2c3e50", "#4a148c", "#00695c", "#b71c1c"];
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.backgroundColor = randomColor;
+    });
+  </script>
+
+</body>
+</html>
+
+
+---
+
+✅ If you actually meant Java (not JavaScript)
+
+Here’s a Java console program that displays portfolio info:
+
+public class Portfolio {
+    public static void main(String[] args) {
+        System.out.println("===== My Portfolio =====");
+        System.out.println("Name: John Doe");
+        System.out.println("Profession: Web Developer");
+        System.out.println("\n--- About Me ---");
+        System.out.println("I am passionate about building interactive and modern web applications.");
+        System.out.println("\n--- Projects ---");
+        System.out.println("1. Portfolio Website");
+        System.out.println("2. E-commerce App");
+        System.out.println("3. Chat Application");
+        System.out.println("\n--- Contact ---");
+        System.out.println("Email: johndoe@example.com");
+    }
+}
+
+
+---
+
+👉 Can you confirm whether you want Java (desktop/console app) or JavaScript (web interactivity) for your portfolio?
+
