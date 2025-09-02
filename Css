@@ -1,0 +1,98 @@
+Perfect 👍
+You already have the HTML structure for a portfolio. Now let’s add CSS styling to make it look professional.
+
+Here’s a sample CSS you can put in a file called style.css and link it in your HTML.
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #1e1e2f;
+  color: white;
+  transition: background-color 1s ease; /* smooth transition for background */
+}
+
+/* Header */
+header {
+  text-align: center;
+  background: #2a2a40;
+  padding: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff9800;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff9800;
+}
+
+/* Project cards */
+article {
+  background: #33334d;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-10px);
+  background-color: #444466;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2a2a40;
+  margin-top: 2rem;
+}
+
+👉 To link this CSS file, add this line inside your HTML <head> section:
+
+<link rel="stylesheet" href="style.css">
+
+
+---
+
+✨ Now your portfolio will have:
+
+A dark background with smooth transitions.
+
+A highlight color (#ff9800) for headings and hover effects.
+
+Cards with hover animation for projects.
+
+
+Would you like me to also show you how to combine CSS + JavaScript so you can change the background color dynamically with a button?
+
